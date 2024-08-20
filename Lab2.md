@@ -1,4 +1,4 @@
-
+---
 
 # ENS5204 Workshop 2: Getting Started with ROS 2 - Tools, Publishers, and Subscribers
 
@@ -462,5 +462,9 @@ ros2 topic pub --once /my_topic std_msgs/msg/String "{data: 'Hello there from te
 ✓ Demonstrate to the tutor your modified talker and listener interaction above, as well as the `rqt_graph` showing the names to get the remainder of the workshop marks.
 
 Before next week, also have a look through the ROS 2 tutorial on writing a simple service and client: [Writing a Simple C++ Service and Client](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.html).
+
+---
+
+~ End of Workshop ~
 
 ---

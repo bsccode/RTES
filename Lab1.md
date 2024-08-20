@@ -1,3 +1,4 @@
+---
 
 # ENS5204 Workshop 1: Linux Familiarisation and ROS 2 Installation
 
@@ -271,3 +272,8 @@ We will stop there for this week, but you may want to start exploring some of th
 
 **Make sure you have shown your tutor that you can successfully run the two examples before you leave.**
 
+---
+
+~ End of Workshop ~
+
+---
