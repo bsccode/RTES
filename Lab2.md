@@ -1,5 +1,3 @@
----
-
 # ENS5204 Workshop 2: Getting Started with ROS 2 - Tools, Publishers, and Subscribers
 
 ## Overview

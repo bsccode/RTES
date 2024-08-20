@@ -1,5 +1,3 @@
----
-
 # ENS5204 Workshop 4: Navigation
 
 ## Overview

@@ -1,5 +1,3 @@
----
-
 # ENS5204 Workshop 3: Introduction to the ROSbot 2.0 Pro
 
 ## Overview
