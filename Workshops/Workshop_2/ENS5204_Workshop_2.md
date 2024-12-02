@@ -421,6 +421,8 @@ At the moment it just looks like a regular terminal window.
 ➢ Right-click and you can select **Split Horizontally**, which will give you two terminals
 ➢ Then right-click separately in the top and then the bottom and select **Split Vertically** in each to end up with four terminals in one window.
 
+![terminator](terminator.png "Example of Terminator")
+
 Now let us test your modified code:
 
 ➢ In one of the 4 windows, change to the root of your workspace (`~/ros2_ws`) then run the command:
