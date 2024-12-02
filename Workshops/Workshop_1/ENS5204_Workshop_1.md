@@ -16,6 +16,9 @@ The Linux Desktop environment has a somewhat different layout to the Windows env
 
 ➢ You can start the Terminal by clicking the icon that looks like this on the menu on the left side of the screen:
 
+![Terminal](terminal.png "terminal-emulator-icon")
+
+
 You can enter text commands into this Shell to execute them on the system.
 
 #### Viewing and navigating directories (folders)

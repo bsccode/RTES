@@ -196,7 +196,7 @@ The `alias` essentially provides a shorthand that replaces a longer command (or 
 
 ➢ Run the command `ros2 topic echo /odometry/filtered` in a new terminal window and you should get information about the current location in the window as shown below:
 
-<PICTURE_PLACEHOLDER>
+![odometry](odometry.png "Example of odometry output")
 
 This is related to the type of message used to determine the state of the robot of the `nav_msgs/Odometry` type containing information about speeds (`twist`) and positions (`pose`).
 
@@ -204,7 +204,7 @@ To get data only for a specific field, you can add the `--field` flag and names 
 
 ➢ Stop the previous command and run the command `ros2 topic echo /odometry/filtered --field pose.pose` and you should see something like below:
 
-<PICTURE_PLACEHOLDER>
+![pose](pose.png "Example of pose output")
 
 ➢ Move the robot around and see how the information changes.
 
@@ -358,7 +358,7 @@ You should now see the map of the area that is being built up by the Rosbot’s 
 
 ➢ You can stop when you have a map of most of the world as shown below.
 
-<PICTURE_PLACEHOLDER>
+![map_views](Sample_map_views.png "Sample Map Views")
 
 **Sample map: 2 different views**
 
@@ -466,7 +466,7 @@ You will now be able to access the Rosbot using its hostname (`rosbot`) instead 
 
 You should see a screen similar to below:
 
-<PICTURE_PLACEHOLDER>
+![ssh_Success](ssh_connect_succesfull.png "Successful Connection to Husarion SSH")
 
 If you see the above, you are essentially viewing a terminal window on the Rosbot.
 

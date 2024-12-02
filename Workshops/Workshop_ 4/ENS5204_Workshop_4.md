@@ -32,9 +32,8 @@ To understand what is in a map file, let’s have a look at it.
   - It just has some parameters, including one that specifies the image for the map and also the resolution which should be `0.04`. This means that one pixel in the image corresponds to `0.04m` in the ‘real’ world.
 ➢ Now close the file.
 
+![map_example](map_pgm.png "Example of map.pgm image")
 **Fig 1: Example of map.pgm image**
-
-<PICTURE_PLACEHOLDER>
 
 ![Map Image](map_example.png)
 
