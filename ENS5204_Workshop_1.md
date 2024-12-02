@@ -3,7 +3,7 @@
 
 ## Overview
 
-In this workshop, you will be introduced to the Linux desktop environment and guided through the process to install and configure ROS 2 (Robot Operating System 2), which we will use for project work in this unit.
+In this first workshop you will be introduced to the Linux desktop environment, and guided through the process to install and perform initial configuration for the ROS2 (Robot Operating System 2) that we will be using as the basis for the project work in this unit. You will be provided with a bootable USB drive that will start an Ubuntu Linux 22.04 environment on the lab PCs when you boot from it (just plug it in and start, or restart, the PC).
 
 ### Workshop Notation
 Anything starting with the `➢` symbol indicates an action you need to carry out.
@@ -12,7 +12,10 @@ Anything starting with the `➢` symbol indicates an action you need to carry ou
 
 ## Linux Environment
 
-Linux is a free open-source operating system with features similar to Windows but includes significant differences. It is the primary OS for ROS.
+Linux is a free open-source operating system with similar features and capabilities to Windows, but also some significant differences. This is the OS that best supports ROS, so we will be using it as our main development environment for the semester. The bootable USB you will be provided with
+should enable you to run it on any computer you can configure to boot from USB. Note, however, if you lose the drive you will be required to replace it at your cost, and will also lose your personal environment, so look after it!
+
+The Linux Desktop environment has a somewhat different layout to the Windows environment you might be used to, but you should be able to get to grips with the basic functionality reasonably easily as the controls are fairly similar. One key difference, however, particularly when using ROS, is that a lot of interactions with the Linux system are carried out through a Command Shell – or Terminal Window. 
 
 **Important:** The bootable USB provided should be kept safe as losing it will result in the loss of your personal environment.
 
@@ -22,6 +25,7 @@ To start the Terminal, click the icon resembling this on the left-side menu:
 ```plaintext
 <terminal_icon_placeholder>
 ```
+You can enter text commands into this Shell to execute them on the system.
 
 ---
 
@@ -31,14 +35,16 @@ To start the Terminal, click the icon resembling this on the left-side menu:
 ```bash
 ls
 ```
+This will execute the “List” command and will list the files and folders (directories) in the current directory (the home directory that is the default file path when the shell opens). 
 
 #### Change Directory
 To change to the `Downloads` directory:
 ```bash
 cd Downloads
 ```
+If you want to change to a different directory, you can use the ‘cd’ command for “Change Directory”, but this time you will need to provide a parameter to tell the system which directory to change to.
 
-**Note:** Linux commands are case-sensitive.
+**Note:** Linux commands are case-sensitive, so if you type in ‘cd downloads’ it will respond ‘No such file or directory’.
 
 #### Autocompletion Shortcut
 Press `Tab` to autocomplete commands. For example:
