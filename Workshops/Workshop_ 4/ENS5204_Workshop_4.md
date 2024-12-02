@@ -33,9 +33,8 @@ To understand what is in a map file, let’s have a look at it.
 ➢ Now close the file.
 
 ![map_example](map_pgm.png "Example of map.pgm image")
-**Fig 1: Example of map.pgm image**
 
-![Map Image](map_example.png)
+**Fig 1: Example of map.pgm image**
 
 ### Localization and Navigation
 
